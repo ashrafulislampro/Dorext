@@ -70,7 +70,7 @@ const Footer = () => {
         </li>
         <li className="footer-bottom-list--item">
           <small>
-            Terms & Condition | Privacy & Policy | &copy;2021 Alif Bin Hossain
+            Terms & Condition | Privacy & Policy | &copy;2022 Ashraful Islam
           </small>
         </li>
       </ul>
