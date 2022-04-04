@@ -33,9 +33,9 @@ const client = new MongoClient(uri, {
 async function server() {
   try {
     await client.connect();
-    const database = client.db("dorext-DB");
-    const tourCollection = database.collection("tours");
-    const orderCollection = database.collection("orders");
+    const database = client.db("process.env.DB_NAME");
+    const tourCollection = database.collection("process.env.DB_CONNECT");
+    const orderCollection = database.collection("process.env.DB_CONNECT2");
 
     //REQUEST TO GET ALL TOURS
     app.get("/tours", async (req, res) => {
