@@ -1,0 +1,67 @@
+.admin-panel {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-panel h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+aside {
+  background-color: #fc5b62;
+  flex: 0 0 20%;
+  padding: 2rem 1rem;
+}
+
+aside .link {
+  display: block;
+  position: relative;
+  margin: 1rem 0;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  width: max-content;
+}
+
+.admin-panel .content {
+  flex: 1;
+  background-image: url(../../assets/images/tours/rome-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              SHORT MEDIA QUERY                             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 668px) {
+  .admin-panel {
+    display: block;
+  }
+
+  .admin-panel h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  aside {
+    padding: 2rem 1rem 0.5rem;
+  }
+
+  aside .link {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .admin-panel .content {
+    padding: 2rem 0.8rem;
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,54 @@
+.admin {
+  min-height: 100vh;
+  background-image: url(../../assets/images/others/h1-background-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.admin-login {
+  padding: 2rem 4rem;
+  color: #fc5b62;
+}
+
+.admin-login img {
+  width: 60%;
+}
+
+.admin-login h2 {
+  font-size: 48px;
+  font-weight: 400;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.admin-login p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              SHORT MEDIA QUERY                             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 668px) {
+  .admin {
+    min-height: 70vh;
+  }
+  .admin-login {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .admin-login img {
+    width: 100%;
+  }
+
+  .admin-login h2 {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+
+  .admin-login p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+}

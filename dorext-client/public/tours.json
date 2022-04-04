@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Ultimate Thailand",
+    "img": "https://i.ibb.co/41HFB90/thailand.jpg",
+    "description": "The best time to visit Thailand is November to February, although this kingdom has high temperatures and beautiful sunshine pretty much all year round. Even during the wet season, the showers don’t last long and you’re soon back out on the beach, so it really is an all-year-round option.",
+    "price": 200,
+    "duration": 3,
+    "status": "pending",
+    "rating": 4.6,
+    "reviews": 5,
+    "category": "popular"
+  },
+  {
+    "name": "Discover India",
+    "img": "https://i.ibb.co/GFjzg2T/india.jpg",
+    "description": "India is a huge and beautiful land full of wonders. From the Himalayas to the Indian Ocean, Desert of Thar in the snowy mountains of Sikkim, it is a country full of beautiful landscapes and beautiful people. India is a unique country with diversity.",
+    "price": 300,
+    "duration": 5,
+    "status": "pending",
+    "rating": 4.1,
+    "reviews": 10,
+    "category": "explore"
+  },
+  {
+    "name": "China Tour",
+    "img": "https://i.ibb.co/rc5JdgW/china.jpg",
+    "description": "China's awesome and monumental ancient treasures exceed all other countries for size and number — from ancient palaces to the Great Wall, city walls, buried armies, canals, pagodas, temples, and giant Buddhas.",
+    "price": 350,
+    "duration": 2,
+    "status": "pending",
+    "rating": 4.3,
+    "reviews": 12,
+    "category": "popular"
+  },
+  {
+    "name": "Explore Europe",
+    "img": "https://i.ibb.co/hBxnmP9/europe.jpg",
+    "description": "Travelling to Europe is a true adventure! The continent is filled with diverse countries, cultures, cuisines, history and languages making a trip to Europe educational, inspiring and just plain fun!",
+    "price": 550,
+    "duration": 3,
+    "status": "pending",
+    "rating": 4,
+    "reviews": 23,
+    "category": "adventure"
+  },
+  {
+    "name": "Budapest Tour",
+    "img": "https://i.ibb.co/HKzqhbt/budapest.png",
+    "description": "Budapest has a rich history, great food, fascinating architecture, and it's an ideal place for party lovers, as it offers a vibrant nightlife and many great bars and restaurants. The locals are friendly, the city is safe and there are plenty of sites to visit for tourists",
+    "price": 450,
+    "duration": 2,
+    "status": "pending",
+    "rating": 3.7,
+    "reviews": 9,
+    "category": "explore"
+  },
+  {
+    "name": "Highlight Rome",
+    "img": "https://i.ibb.co/b62fDYq/rome.png",
+    "description": "One of the best reasons to visit Rome is that it's small enough that you can easily walk around and see a lot of things in one day, but big enough that you can always find a park, a cafe, a piazza, and even a monument or museum where there is nobody, including in peak season.",
+    "price": 600,
+    "duration": 5,
+    "status": "pending",
+    "rating": 4.2,
+    "reviews": 27,
+    "category": "explore"
+  },
+  {
+    "name": "Costarica,Panama",
+    "img": "https://i.ibb.co/rbKLY4J/panama.png",
+    "description": "At the crossroads of two oceans and two continents, Panama is a narrow little country packed with culture, tropical beaches, history, wildlife, and basically all you could wish for if you are looking for an adventurous holiday. Widely unexplored, it offers much more than you'd ever expect.",
+    "price": 600,
+    "duration": 2,
+    "status": "pending",
+    "rating": 3.3,
+    "reviews": 8,
+    "category": "adventure"
+  },
+  {
+    "name": "Discover Brasil",
+    "img": "https://i.ibb.co/rGx0vZK/brasil.png",
+    "description": "This country is filled with a rich dose of history, culture, religion and great sports as well. With intriguing people, plants and animals this country is surrounded by a fantastic Amazon rain forest and beautiful tropical oceans. Brazil is one of the most fascinating tourist destinations for travelers.",
+    "price": 750,
+    "duration": 5,
+    "status": "pending",
+    "rating": 4.8,
+    "reviews": 14,
+    "category": "popular"
+  },
+  {
+    "name": "Explore Bangladesh",
+    "img": "https://i.ibb.co/zrTVQGJ/bangladesh.png",
+    "description": "It is the capital and largest city of Dhaka, Bangladesh, which is adjacent to countries like India, Nepal, Bhutan and Myanmar. The tourist attractions of Bangladesh include history and monuments, holiday villages, beaches, picnic spots, forests and tribal people, wildlife of various species.",
+    "price": 280,
+    "duration": 3,
+    "status": "pending",
+    "rating": 4.6,
+    "reviews": 18,
+    "category": "popular"
+  },
+  {
+    "name": "Anchorage to Ushuaia",
+    "img": "https://i.ibb.co/LYrjnBt/ushuia.png",
+    "description": "The one and only double-decker bus in Tierra del Fuego provides tours of the southernmost city in the world, with some amazing sights and historical facts. The bus takes you along Ushuaia’s main roads, where you will be told all about contemporary life in the city, its people and its buildings, before learning about how the city originated.",
+    "price": 300,
+    "duration": 2,
+    "status": "pending",
+    "rating": 3.9,
+    "reviews": 12,
+    "category": "explore"
+  },
+  {
+    "name": "Cuzco to Anchorage",
+    "img": "https://i.ibb.co/m9106Zh/Anchorage.png",
+    "description": "Between mountains and an inlet, surrounded by national parks and filled with Alaska wildlife, Anchorage combines the best of Alaska: Experience a city with wide-open spaces, all the comforts of home, some of the coolest views in the state, and the warm hospitality of the Land of the Midnight Sun.",
+    "price": 380,
+    "duration": 3,
+    "status": "pending",
+    "rating": 3.8,
+    "reviews": 7,
+    "category": "explore"
+  },
+  {
+    "name": "Versailles",
+    "img": "https://i.ibb.co/wW8QWX9/Versailles.jpg",
+    "description": "The Palace of Versailles. A decadent symbol of royal power and influence that, to this day, still wows visitors. ... The Palace offers an incredible insight into French history, illuminating the lavish and ostentatious lives the former monarchs used to live. Over 10 million people visit this extravagant palace each year.",
+    "price": 450,
+    "duration": 3,
+    "status": "pending",
+    "rating": 4.4,
+    "reviews": 9,
+    "category": "popular"
+  }
+]

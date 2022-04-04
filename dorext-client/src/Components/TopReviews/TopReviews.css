@@ -1,0 +1,116 @@
+.top-reviews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.review-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review-carousel-container {
+  background-image: url(../../assets/images/others/carousel-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 4rem;
+  color: #fff;
+  margin: 0;
+}
+.review-carousel {
+  height: 400px;
+}
+
+.review-carousel-container h2 {
+  margin-top: 30px;
+}
+.review-carousel-item {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+.content {
+  text-align: center;
+}
+.content h4 {
+  color: #f7c04d;
+
+  font-family: cursive;
+  font-size: 50px;
+}
+.content span {
+  color: #f7c04d;
+}
+
+.content img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-fit: top center;
+}
+
+.happy-customer-name {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f7c04d;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              SHORT MEDIA QUERY                             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 668px) {
+  .top-reviews {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .review-banner img {
+    display: none;
+  }
+
+  .review-carousel-container {
+    padding: 2rem;
+    color: #fff;
+    margin: 0;
+    background-color: turquoise;
+  }
+  .review-carousel {
+    height: 500px;
+  }
+
+  .review-carousel-container h2 {
+    margin-top: 30px;
+  }
+  .review-carousel-item {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+  .content {
+    text-align: center;
+  }
+  .content h4 {
+    color: #f7c04d;
+
+    font-family: cursive;
+    font-size: 50px;
+  }
+  .content span {
+    color: #f7c04d;
+  }
+
+  .content img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-fit: top center;
+  }
+
+  .happy-customer-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #f7c04d;
+  }
+}

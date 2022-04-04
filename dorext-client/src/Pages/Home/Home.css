@@ -1,0 +1,31 @@
+.popular-tours {
+  padding: 2rem 0 6rem;
+  background-image: url(../../assets/images/others/h1-background-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 150vh;
+}
+.popular-tours h1,
+.tours h1,
+.booking h1 {
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 80px;
+  color: #fc5b62;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              SHORT MEDIA QUERY                             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 668px) {
+  .popular-tours {
+    padding: 2rem 0 2rem;
+  }
+  .popular-tours h1,
+  .tours h1 {
+    font-size: 60px;
+  }
+}

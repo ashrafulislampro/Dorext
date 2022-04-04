@@ -1,0 +1,77 @@
+.tour {
+  min-height: 580px;
+  max-height: 580px;
+  overflow: hidden;
+  position: relative;
+  border: none !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.tour img {
+  height: 280px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.title {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.popular-box,
+.adventure-box,
+.explore-box {
+  display: block;
+  font-size: 12px;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border-radius: 100px;
+  font-weight: 600;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular-box {
+  background-color: #ffd7b6;
+  color: #c24100;
+}
+.adventure-box {
+  background-color: #b1e693;
+  color: #0d8000;
+}
+.explore-box {
+  background-color: #e7e8ff;
+  color: #8086fe;
+}
+
+.tour-price {
+  font-weight: 500;
+  color: #ff4a60;
+  margin: 1rem 0;
+  font-size: 18px;
+}
+.tour-price span {
+  font-weight: 700;
+}
+
+.review-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total-reviews > * {
+  display: block;
+}
+
+.total-reviews .total {
+  margin-top: 10px;
+  color: #ff4a60;
+  text-align: right;
+}
+
+.star {
+  color: #f7c04d;
+}

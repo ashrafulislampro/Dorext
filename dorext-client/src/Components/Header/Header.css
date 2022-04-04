@@ -1,0 +1,28 @@
+.header {
+}
+.navbar {
+  min-height: 10vh;
+}
+.logo {
+  font-weight: 800;
+}
+.logo span {
+  color: #fc5b62;
+}
+
+.nav-link {
+  font-size: 19px;
+  margin-right: 8px;
+  font-weight: 800;
+}
+.navbar-brand img {
+  width: 14rem;
+  object-contain: cover;
+}
+
+.btn-signout {
+  background-color: transparent;
+  border: none;
+  font-size: 19px;
+  font-weight: 800;
+}

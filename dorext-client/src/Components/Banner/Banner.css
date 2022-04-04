@@ -1,0 +1,111 @@
+.carousel-item {
+  min-height: 90vh;
+  background-attachment: fixed;
+  display: flex !important;
+  align-items: center;
+  background-size: 120% 120%;
+  background-position: center center;
+  animation: animatedBackground 5s infinite alternate;
+}
+
+.carousel-item--1 {
+  background-image: url(../../assets/images/slider/slide_4-1.jpg);
+}
+.carousel-item--2 {
+  background-image: url(../../assets/images/slider/slide_2-1.jpg);
+}
+.carousel-item--3 {
+  background-image: url(../../assets/images/slider/slide_3-1.jpg);
+}
+
+.carousel-content {
+  color: #fff;
+  margin-left: 10%;
+}
+.carousel-content h1 {
+  font-size: 60px;
+  width: 70%;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.carousel-content p {
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+}
+
+.btn-book {
+  display: inline-block;
+  border: none;
+  background-color: #fc5b62;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.btn-book:active {
+  transform: scale(0.98);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes animatedBackground {
+  0% {
+    background-size: 120% 120%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 668px) {
+  .carousel-item {
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    animation: none;
+  }
+
+  .carousel-item--1 {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../../assets/images/slider/slide_2-1.jpg);
+  }
+  .carousel-item--2 {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../../assets/images/slider/slide_3-1.jpg);
+  }
+  .carousel-item--3 {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../../assets/images/slider/slide_4-1.jpg);
+  }
+
+  .carousel-content {
+    color: #fff;
+    margin-left: 10%;
+  }
+  .carousel-content h1 {
+    font-size: 40px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .carousel-content p {
+    font-size: 20px;
+  }
+}
