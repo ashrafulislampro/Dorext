@@ -1,23 +1,25 @@
 import axios from "axios";
-import React from "react";
-import "./Booking.css";
-import { useEffect } from "react";
-import { useState } from "react";
-import { useParams } from "react-router";
-import Rating from "react-rating";
+import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
+import Rating from "react-rating";
+import { useParams } from "react-router";
 import useAll from "../../hooks/useAll";
 import popupSuccess from "../../popup/popupSuccess";
+import "./Booking.css";
 
 const Booking = () => {
   const [tour, setTour] = useState({});
   const { user } = useAll();
   const { id } = useParams();
-
+  // console.log(id);
   useEffect(() => {
     axios
       .get(`https://shrieking-corpse-81438.herokuapp.com/tour/${id}`)
-      .then((data) => setTour(data.data))
+      .then((data) => {
+        console.log(data.data);
+        setTour(data.data)
+      })
+
       .catch((err) => err.message);
   }, []); //get current tour information
 
@@ -37,13 +39,14 @@ const Booking = () => {
       status: "pending",
       tour: tour,
     };
-
+    
     axios
       .post(
         "https://shrieking-corpse-81438.herokuapp.com/tour/booking",
         orderInfo
       )
       .then((data) => {
+        console.log(data)
         const isPlaced = data.data.insertedId;
         if (isPlaced) {
           popupSuccess("booked");

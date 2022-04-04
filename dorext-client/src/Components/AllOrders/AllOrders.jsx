@@ -1,9 +1,9 @@
 import axios from "axios";
-import "./AllOrders.css";
 import React, { useEffect, useState } from "react";
-import AllOrderItem from "../AllOrderItem/AllOrderItem";
 import Swal from "sweetalert2";
 import popupSuccess from "../../popup/popupSuccess";
+import AllOrderItem from "../AllOrderItem/AllOrderItem";
+import "./AllOrders.css";
 
 const AllOrders = () => {
   const [allOrders, setAllOrders] = useState([]);

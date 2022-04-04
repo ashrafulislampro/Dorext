@@ -1,8 +1,8 @@
 import React from "react";
-import "./Tour.css";
 import { Card } from "react-bootstrap";
 import Rating from "react-rating";
 import { useHistory } from "react-router";
+import "./Tour.css";
 
 const Tour = ({ tour }) => {
   const {
@@ -19,7 +19,7 @@ const Tour = ({ tour }) => {
 
   const history = useHistory();
   const url = `/tour/booking/${_id}`;
-
+  // console.log(url)
   const handleGoToBooking = () => {
     history.push(url);
   };

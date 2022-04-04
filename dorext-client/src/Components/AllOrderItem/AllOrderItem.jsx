@@ -1,9 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Switch from "react-switch";
-import "./AllOrderItem.css";
 import Swal from "sweetalert2";
 import popupSuccess from "../../popup/popupSuccess";
+import "./AllOrderItem.css";
 
 const AllOrderItem = ({ order, index, handleOrderDelete }) => {
   const { email, date, tour, status, _id } = order;
