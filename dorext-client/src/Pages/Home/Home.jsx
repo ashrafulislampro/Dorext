@@ -1,14 +1,12 @@
-import React from "react";
-import "./Home.css";
-import Banner from "../../Components/Banner/Banner";
-import { useState } from "react";
-import { useEffect } from "react";
 import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import Tour from "../../Components/Tour/Tour";
+import { PuffLoader } from "react-spinners";
+import Banner from "../../Components/Banner/Banner";
 import Statistics from "../../Components/Statistics/Statistics";
 import TopReviews from "../../Components/TopReviews/TopReviews";
-import { PuffLoader } from "react-spinners";
+import Tour from "../../Components/Tour/Tour";
+import "./Home.css";
 
 const Home = () => {
   const [tours, setTours] = useState([]);
@@ -18,7 +16,7 @@ const Home = () => {
     setLoading(true);
     setTimeout(() => {
       axios
-        .get("https://shrieking-corpse-81438.herokuapp.com/home/tours")
+        .get("http://localhost:5000/home/tours")
         .then((data) => {
           setTours(data.data);
           setLoading(false);

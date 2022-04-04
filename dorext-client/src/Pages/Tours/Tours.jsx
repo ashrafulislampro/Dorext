@@ -1,23 +1,22 @@
 import axios from "axios";
-import React from "react";
-import "./Tours.css";
-import { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
-import Tour from "../../Components/Tour/Tour";
 import { PuffLoader } from "react-spinners";
+import Tour from "../../Components/Tour/Tour";
+import "./Tours.css";
 
 const Tours = () => {
   const [tours, setTours] = useState([]);
   const [loading, setLoading] = useState(true);
-
+// https://shrieking-corpse-81438.herokuapp.com/tours
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       axios
-        .get("https://shrieking-corpse-81438.herokuapp.com/tours")
+        .get("http://localhost:5000/tours")
         .then((data) => {
           setTours(data.data);
+          console.log(data.data)
           setLoading(false);
         });
     }, 1500);
